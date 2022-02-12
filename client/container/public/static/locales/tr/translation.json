@@ -1,0 +1,57 @@
+//t('common.displayedRows', '{{from}} - {{to}} of {{count}}', {from, to, count})
+{
+  "home": {
+    "mainTitle": "An Example of react with i18n",
+    "text": "Hello I am a text to be translated",
+    "description": "I am a paragraph"
+  },
+  "navbar": {
+    "dashboard": "Ana Sayfa",
+    "module1": "Modül 1",
+    "module2": "Modül 2",
+    "group": "Grup Yönetimi",
+    "todoList": "Yapılacak Listesi"
+  },
+  "common": {
+    "language": "Dili Değiştir",
+    "notifications": "Bildirimler",
+    "logout": "Çıkış Yap",
+    "settings": "Ayarlar",
+    "search": "Ara",
+    "submit": "Gönder",
+    "save": "Kaydet",
+    "add": "Ekle",
+    "update": "Güncelle",
+    "copy": "Kopyala",
+    "archive": "Arşiv",
+    "delete": "Sil",
+    "rowsPerPage": "Sayfada Gösterilen:",
+    "previousPage": "Önceki sayfa",
+    "nextPage": "Sonraki sayfa",
+    "displayedRows": "{{count}} satırdan {{from}} - {{to}}",
+    "displayedRowsMore": "{{to}}+ satırdan {{from}} - {{to}}",
+    "back": "Geri",
+    "cancel": "İptal",
+    "next": "İleri",
+    "viewAll": "Tümünü Gör",
+    "dashboard": "Panel",
+    "startDate": "Başlangıç Tarihi",
+    "endDate": "Bitiş Tarihi",
+    "sortBy": "Sırala",
+    "latestCreated": "Oluşturulma: Yeniden Eskiye",
+    "oldestCreated": "Oluşturulma: Eskiden Yeniye",
+    "latestUpdated": "Güncelleme: Yeniden Eskiye",
+    "oldestUpdated": "Güncelleme: Eskiden Yeniye",
+    "apply": "Uygula",
+    "reset": "Sıfırla",
+    "noResults": "Kayıt Bulunamadı."
+  },
+  "group": {
+    "removeGroup": "Grubu Sil",
+    "removeGroupDescription": "Grubu silmek istediğine eminmsin?"
+  },
+  "todo": {
+    "removeTodo": "Yapılacak İş Silme",
+    "removeTodoDescription": "Yapılacak iş bilgisini silmek istediğinize eminmisniz ?"
+  }
+}

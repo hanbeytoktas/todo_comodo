@@ -1,0 +1,56 @@
+{
+  "home": {
+    "mainTitle": "An Example of react with i18n",
+    "text": "Hello I am a text to be translated",
+    "description": "I am a paragraph"
+  },
+  "navbar": {
+    "dashboard": "Dashboard",
+    "module1": "Modul 1",
+    "module2": "Modul 2",
+    "group": "Group Management",
+    "todoList": "Todo List"
+  },
+  "common": {
+    "language": "Change Language",
+    "notifications": "Notifications",
+    "logout": "Logout",
+    "settings": "Settings",
+    "search": "Search",
+    "submit": "Submit",
+    "save": "Save",
+    "add": "Add",
+    "update": "Update",
+    "copy": "Copy",
+    "archive": "Archive",
+    "delete": "Delete",
+    "rowsPerPage": "Rows per page:",
+    "previousPage": "Previous Page:",
+    "nextPage": "Next Page:",
+    "displayedRows": "{{from}}-{{to}} of {{count}}",
+    "displayedRowsMore": "{{from}}-{{to}} of more than {{to}}",
+    "back": "Back",
+    "cancel": "Cancel",
+    "next": "Next",
+    "viewAll": "View All",
+    "dashboard": "Dashboard",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "sortBy": "Sort By",
+    "latestCreated": "Created At: Latest",
+    "oldestCreated": "Created At: Oldest",
+    "latestUpdated": "Updated At: Latest",
+    "oldestUpdated": "Updated At : Oldest",
+    "apply": "Apply",
+    "reset": "Reset",
+    "noResults": "No Results"
+  },
+  "group": {
+    "removeGroup": "Remove Group",
+    "removeGroupDescription": "Are you sure delete this group?"
+  },
+  "todo": {
+    "removeTodo": "Remove TODO",
+    "removeTodoDescription": "Are you sure delete this todo?"
+  }
+}

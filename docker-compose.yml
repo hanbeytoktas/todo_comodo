@@ -1,0 +1,38 @@
+version: '3.3'
+
+services:
+  client_container:
+    stdin_open: true
+    build:
+      dockerfile: Dockerfile
+      context: ./client/container
+    ports:
+      - "3000:3000"
+    volumes:
+      - /app/node_modules
+      - ./client/container:/app
+  
+  client_plugin1:
+    stdin_open: true
+    build:
+      dockerfile: Dockerfile
+      context: ./client/plugin1
+    ports:
+      - "3001:3001"
+    volumes:
+      - /app/node_modules
+      - ./client/plugin1:/app
+  
+  server:
+    stdin_open: true
+    build:
+      dockerfile: Dockerfile
+      context: ./client_api
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./client_api:/usr/src/app
+  
+
+
+  

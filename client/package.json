@@ -1,0 +1,14 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx lerna run start --parallel"
+  },
+  "author": "hanbey.toktas@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "lerna": "^4.0.0"
+  }
+}

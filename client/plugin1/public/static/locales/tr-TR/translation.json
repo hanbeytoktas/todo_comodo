@@ -1,0 +1,12 @@
+{
+    "home": {
+      "mainTitle": "An Example of react with i18n",
+      "text": "Hello I am a text to be translated",
+      "description": "I am a paragraph"
+    },
+    "navbar": {
+      "dashboard":"Ana Sayfa",
+      "module1":"Modül 1",
+      "module2":"Modül 2"
+    }
+}
